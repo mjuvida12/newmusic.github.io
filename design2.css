@@ -1,0 +1,144 @@
+#navigation{
+	border: 3px #C7C7C7 ridge;
+	height: 60px;
+	box-shadow: 2px 2px 3px #FFF;
+	background-color: #272727;
+	background-image: url('images/logo.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 60px, 45px;
+	width: 100%;
+	margin-top: -8px;
+	opacity: .9;
+}
+body {
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	color: #FFF;
+	font-family: 'Signika' ,Verdana, serif;
+	clear: both;
+
+}
+
+nav ul{
+	list-style: none;
+	display: inline;
+}
+nav ul li{
+	display: inline;
+	padding-left: 70px;
+}
+
+nav{
+	width:900px;
+	margin: 0px auto;
+	padding:0px;
+	font-weight: bold;
+	text-align: center;
+}
+nav ul li a{
+	color: #FFF;
+	text-decoration: none;
+	line-height: 30px;
+	padding: 13px 70px;
+	border: 1px #FFF solid;
+	background-color: #000;
+}
+
+a {
+  transition: transform .3s ease-out;
+  display: inline-block;
+}
+
+#navigation nav ul li a:hover, nav ul li a:focus{
+	transform: translate(0, 5px);
+	border: 1px #FFF solid;
+	background-color: #000;
+}
+
+form#voteform{
+	background:#000;
+	border-radius:20px;
+	padding:15px;
+	width:400px;
+	margin:50px auto;
+	opacity: .8;
+	border:1px ridge #FFF;
+	
+
+}
+form#voteform button {
+	font: 18px 'Signika' ,Verdana, serif;
+	background: #717171;
+	width: 200px;
+	border-radius: 25px;
+	border: none;
+	color: #FFF;
+	display: block;
+	margin: 6px auto;
+	padding: 7px 25px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 9pt;
+}
+form#voteform button:hover {
+    transition: transform .3s ease-out;
+	transform: translate(0, 2px);
+}
+
+form#voteform input:focus, 
+form#voteform textarea:focus {
+	background: #B8A6B8;
+}
+footer {
+	text-align:center;
+	font-size: 8pt;
+	color: #FFF;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+
+ }
+ h1, h2{
+	color:#FFF;
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:5px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 2px 2px #AA48B3;
+}
+
+fieldset{
+	border-radius: 20px;
+}
+
+#voted{
+	text-align: center;
+}
+.center{
+	text-align: center;
+}

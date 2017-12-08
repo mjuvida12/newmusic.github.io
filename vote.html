@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vote Now!</title>
+	<link rel="icon" type="image/png" href="images/logo.png"/>
+	<link rel="stylesheet" type="text/css" href="design2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="formValidate.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="navigation">
+		<nav>
+			<ul>
+				<li><a id="uno" href="index.html">Home</a></li>
+				<li><a href="vote.html">Vote!</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		</div>
+	<form id="voteform"
+		  action = "voted.html">
+		<fieldset id="votingInfo">
+			<div id="Vote">
+			<h1>Voter's Information</h1>	
+			<ul>
+				<li>
+					<label for="fullname">Full Name</label>
+					<input id="fullname" name="fullname" type="text" />
+					<p class="votingError error" id="fullname_error">* Required field</p>				
+				</li>
+				<li>
+					<label for="email">Email</label>
+					<input id="email" name="email" type="text" />
+					<p class="votingError error" id="email_error">* Required field</p>
+					<p class="votingError error" id="emailformat_error">* Invalid email address</p>				
+				</li>
+				<li>
+					<label for="country">Country</label>
+					<select id="country" name="country">
+						<option value="" disabled selected>Choose</option>
+						<option value="AU">Australia</option>
+						<option value="CA">Canada</option>
+						<option value="BR">Brazil</option>
+						<option value="IN">India</option>
+						<option value="PH">Philippines</option>
+						<option value="US">US</option>
+						<option value="CH">China</option>
+						<option value="KO">Korea</option>
+					</select>
+					<p class="votingError error" id="country_error">* Required field</p>
+				</li>
+			</ul>
+			</div>
+			<fieldset>
+				<h2>Vote for your favourite Song and Artist</h2>
+				<ul>
+					<li>
+						<label for="song">Song</label>
+						<select id="song" name="song">
+							<option value="" disabled selected>Choose</option>
+							<option value="IP">I Fall Apart - Post Malone</option>
+							<option value="PE">Perfect - Ed Sheeran</option>
+							<option value="RP">Rockstar - Post Malone</option>
+							<option value="TI">Thunder - Imagine Dragons</option>
+							<option value="SM">Silence - Marshmello</option>
+							<option value="BS">Bodak Yellow - Cardi B</option>
+							<option value="TS">Too Good at Goodbyes - Sam Smith</option>
+							<option value="LK">Love - Kendrick Lamar</option>
+							<option value="HC">Havana - Camila Cabello</option>
+							<option value="ND">New Rules - Dua Lipa</option>
+						</select>
+					<p class="favError error" id="song_error">* Required field</p>
+					</li>
+					<li>
+						<label for="song">Artist</label>
+						<select id="artist" name="artist">
+							<option value="" disabled selected>Choose</option>
+							<option value="PM">Post Malone</option>
+							<option value="ES">Ed Sheeran</option>
+							<option value="PM">Post Malone</option>
+							<option value="IMD">Imagine Dragons</option>
+							<option value="MM">Marshmello</option>
+							<option value="CB">Cardi B</option>
+							<option value="SS">Sam Smith</option>
+							<option value="KL">Kendrick Lamar</option>
+							<option value="CC">Camila Cabello</option>
+							<option value="DL">Dua Lipa</option>
+						</select>
+					<p class="favError error" id="artist_error">* Required field</p>
+					</li>		
+				</ul>
+			</fieldset>
+				<p class="center">
+					<button type="submit" id="submit">Submit</button>
+				</p>
+		</fieldset>	
+	</form>
+	<footer>
+			<div id="social">
+				<a href="https://www.facebook.com/profile.php?id=1718692268" class="fa fa-facebook"></a>
+				<a href="https://www.instagram.com/mfredj12/" class="fa fa-instagram"></a>
+				<a href="https://www.linkedin.com/in/melfred-j-948a19115/" class="fa fa-linkedin"></a>
+			</div>
+	</footer>
+</body>
+</html>
